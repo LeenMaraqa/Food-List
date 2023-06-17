@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="logic.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body onload="loadOrders()">
+    <div id="header" class="header">
+      <a href="index.html">show menu</a>
+      <h1>E-Delicious Restaurant (Your Cart)</h1>
+      <div class="iconShopping">
+        <p id="order">0</p>
+        <i class="fa fa-shopping-cart"></i>
+      </div>
+    </div>
+    <div class="content">
+    <div class="details-container">
+    <div  id="details-container"></div>
+    </div>
+    <div class="info" id="info">
+      <span>Total : </span>
+      <span id="total"></span>
+      <span >$</span>
+      <button onclick="deleteAll()">Clear ALL</button>
+    </div>
+  </div>
+  </body>
+</html>

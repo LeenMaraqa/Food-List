@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> add</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="logic.js" defer></script>
+</head>
+  <body onload="updateNumOfOrders()">
+    <div class="container">
+      <div id="header" class="header">
+        <a href="details.html" >show bill</a>
+        <h1>E-Delicious Restaurant</h1>
+        
+        <div class="iconShopping" onclick="location.href='details.html'">
+          <p id="order">0</p>
+          <i class="fa fa-shopping-cart"></i>
+        </div>
+      </div>
+      <div class="itemsBox">
+        <div class="item" onclick="add(0)">
+          <img src="./img/10.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Caramel Donuts</span>
+            <p>$<span>8</span></p>
+          </div>
+        </div>
+        <div class="item" onclick="add(1)">
+          <img src="./img/11.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Shrimps Rice</span>
+            <p>$<span>12</span></p>
+          </div>
+        </div>
+        <div class="item" onclick="add(2)">
+          <img src="./img/122.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Vegetable Pizza</span>
+            <p>$<span>17</span></p>
+          </div>
+        </div>
+        <div class="item" onclick="add(3)">
+          <img src="./img/13.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Cheese Burger</span>
+            <p>$<span>35</span></p>
+          </div>
+        </div>
+        <div class="item" onclick="add(4)">
+       <img src="./img/14.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Vegetable Pizza</span>
+            <p>$<span>17</span></p>
+          </div>
+        </div>
+        <div class="item" onclick="add(5)">
+          <img src="./img/15.jpg"/>
+          <div class="itemInfo">
+            <span class="title">Vegetable Pizza</span>
+            <p>$<span>17</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- <div class="cartBox">
+      <div class="cart">
+        <i class="fa fa-close"></i>
+        <h1>Cart</h1>
+        <table></table>
+      </div>
+    </div> -->
+
+    <!-- script -->
+  </body>
+</html>
